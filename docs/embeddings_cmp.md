@@ -1,0 +1,2 @@
+# Embeddings та індекс
+Порівнюються `intfloat/multilingual-e5-small` і `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`. Індекс FAISS HNSW, M=32, efConstruction=80, efSearch=64; inner product на нормалізованих векторах. Скрипт записує час побудови й параметри. Для оновлення рекомендовано побудову нової версії індексу з перевіркою 5 змінених документів; видалення в HNSW залежить від підтримки конкретного індексу, тому безпечний варіант — rebuild або tombstone-фільтр. Виміряні Recall@5 і latency потрібно внести з фактичного запуску.

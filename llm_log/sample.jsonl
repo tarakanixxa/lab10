@@ -1,0 +1,1 @@
+{"date": "2026-11-16", "model": "Вкажіть фактичну модель", "version": "Вкажіть версію", "temperature": 0.2, "seed": 42, "prompt_version": "synthetic-query-v1", "raw_output": "Кандидат: Як перевіряють заготовку зі сталі 45?", "human_decision": "Прийнято після ручної звірки з DOC02_C02 та DOC02_C04."}
